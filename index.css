@@ -1,0 +1,82 @@
+form{
+    background-color: dimgray;
+    border: 1px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 2%;
+}
+
+h1{
+    margin-left: 35%;
+    color: white;
+}
+
+#description{
+    margin-left: 25%;
+    font-style: italic;
+}
+
+body{
+    background-image: url(images/survey-form-background.jpeg);
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+p{
+    font-weight: 900;
+    font-size: x-large;
+    color: white;
+}
+
+.color{
+    width: 90%;
+    background-color: rgb(9, 158, 9);
+    font-size: x-large;
+    color: white;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    border: 0;
+    border-radius: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.color:hover{
+    background-color: greenyellow;
+}
+
+.margin{
+    margin-left: 5%;
+}
+
+.width{
+    width: 90%;
+    font-size: x-large;
+    color: dimgray;
+}
+
+option{
+    color: dimgray;
+    font-size: medium;
+}
+
+textarea{
+    width: 90%;
+    color: dimgray;
+}
+
+/* FOR SMART PHONES */
+@media (max-width: 600px) {
+    form{
+        background-color: dimgray;
+        border: 1px;
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 3%;
+    }
+    
+    #title, #description{
+        text-align: center;
+        margin-left: 0;
+    }
+}
